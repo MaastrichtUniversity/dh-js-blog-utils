@@ -1,0 +1,26 @@
+{
+  "name": "dh-js-blog-utils",
+  "version": "1.0.0",
+  "description": "Components and logic needed to render the blog on dh-home and dh-mdr-home",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaastrichtUniversity/dh-js-blog-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaastrichtUniversity/dh-js-blog-utils/issues"
+  },
+  "homepage": "https://github.com/MaastrichtUniversity/dh-js-blog-utils#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-content-loader": "^6.2.1",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.15.0",
+    "styled-components": "^6.0.7"
+  }
+}
