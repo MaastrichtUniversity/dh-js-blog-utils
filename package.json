@@ -16,7 +16,7 @@
     "url": "https://github.com/MaastrichtUniversity/dh-js-blog-utils/issues"
   },
   "homepage": "https://github.com/MaastrichtUniversity/dh-js-blog-utils#readme",
-  "peerDependencies": {
+  "dependencies": {
     "react": "^18.2.0",
     "react-content-loader": "^6.2.1",
     "react-icons": "^4.10.1",

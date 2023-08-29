@@ -1,1 +1,3 @@
-export { default as Error } from "./src/Error";
+import Title from "./Title";
+
+export { Title };
