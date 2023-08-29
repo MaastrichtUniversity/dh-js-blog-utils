@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { device } from "../../assets/Breakpoints";
+import { device } from "./assets/breakpoints";
 
 const Title = (props) => {
   return (
@@ -28,9 +28,11 @@ const PrimaryTitle = styled.h2`
   font-size: 28px;
   text-align: ${(props) => (props.textAlign === "left" ? "left" : "center")};
   max-width: ${(props) => (props.textAlign === "left" ? "unset" : "650px")};
-  margin: ${(props) => (props.textAlign === "left" ? "0 0 1.5rem 0" : "0 auto 1.5rem auto")};
+  margin: ${(props) =>
+    props.textAlign === "left" ? "0 0 1.5rem 0" : "0 auto 1.5rem auto"};
   @media ${device.laptop} {
-    margin: ${(props) => (props.textAlign === "left" ? "0 0 1.5rem 0" : "0 auto 3rem auto")};
+    margin: ${(props) =>
+      props.textAlign === "left" ? "0 0 1.5rem 0" : "0 auto 3rem auto"};
   }
 `;
 
