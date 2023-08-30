@@ -1,4 +1,2 @@
-import Title from "./Title";
-import SummarySection from "./SummarySection";
-
-export { Title, SummarySection };
+export { default as Title } from "./Title";
+export { default as SummarySection } from "./SummarySection";
