@@ -7,7 +7,6 @@ import Error from "./Error";
 import ReadAllButton from "./ReadAllButton";
 import styled from "styled-components";
 import { device } from "./assets/breakpoints";
-import { helpCenterUrl } from "./assets/urls";
 
 export default function SummarySection() {
   const [data, setData] = useState();
@@ -15,9 +14,9 @@ export default function SummarySection() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const getApiData = () => {
+    const getApiData = ({ helpCenterUrl, label }) => {
       fetch(
-        `${helpCenterUrl}/help_backend/confluence_documents/blog/label/blog/latest/3`
+        `${helpCenterUrl}/help_backend/confluence_documents/blog/label/${label}/latest/3`
       )
         .then((response) => {
           if (response.status >= 200 && response.status < 300) {
