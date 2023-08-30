@@ -1,6 +1,6 @@
 {
   "name": "dh-js-blog-utils",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Components and logic needed to render the blog on dh-home and dh-mdr-home",
   "type": "module",
   "source": "src/index.js",            

@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 
 export default function ReadAllButton(props) {
   return (
     <ReadAll to="/blog" align={props.align}>
       Read all articles & news
-      <FaArrowRight style={{ paddingLeft: "4px" }} />
+      {/* <FaArrowRight style={{ paddingLeft: "4px" }} /> */}
     </ReadAll>
   );
 }
