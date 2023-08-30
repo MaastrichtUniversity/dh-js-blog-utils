@@ -6,7 +6,7 @@ import Loading from "./Loading";
 import Error from "./Error";
 import ReadAllButton from "./ReadAllButton";
 import styled from "styled-components";
-import { device } from "./assets/Breakpoints";
+import { device } from "./assets/breakpoints";
 import { helpCenterUrl } from "./assets/urls";
 
 export default function SummarySection() {
